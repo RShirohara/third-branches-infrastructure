@@ -2,7 +2,7 @@
   "name": "third-branches-dot-net",
   "private": true,
   "devDependencies": {
-    "@biomejs/biome": "^2.5.1"
+    "@biomejs/biome": "^2.5.6"
   },
   "workspaces": [
     "./services/*"
