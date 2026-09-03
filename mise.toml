@@ -1,6 +1,6 @@
 #:schema https://mise.en.dev/schema/mise.json
 
-experimental_monorepo_root = true
+monorepo_root = true
 
 [deps.npm]
 auto = true
