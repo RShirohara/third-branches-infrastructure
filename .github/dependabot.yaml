@@ -17,7 +17,7 @@ updates:
   # OpenTofu
   - package-ecosystem: "opentofu"
     directories:
-      - "/services/*"
+      - "/services/*/infra"
     schedule:
       interval: "monthly"
       time: "03:00"
