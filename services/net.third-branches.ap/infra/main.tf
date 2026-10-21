@@ -52,7 +52,7 @@ resource "aws_lightsail_container_service_deployment_version" "gotosocial" {
 
   container {
     container_name = "app"
-    image = "superseriousbusiness/gotosocial:0.22.1"
+    image = "superseriousbusiness/gotosocial:0.22.2"
     environment = {
       SERVICE_CON = "service://localhost"
       TZ = "Asia/Tokyo"
@@ -76,7 +76,7 @@ resource "aws_lightsail_container_service_deployment_version" "gotosocial" {
   }
   container {
     container_name = "tunnel"
-    image = "cloudflare/cloudflared:2026.8.3"
+    image = "cloudflare/cloudflared:2026.10.3"
     command = ["tunnel", "run"]
     environment = {
       SERVICE_CON = "service://localhost"
