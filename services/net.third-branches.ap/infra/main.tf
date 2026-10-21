@@ -92,7 +92,7 @@ resource "aws_lightsail_database" "gotosocial" {
   master_database_name = "gotosocial"
   master_username = "gotosocial"
   master_password = random_password.db_password.result
-  blueprint_id = "postgres_17"
+  blueprint_id = "postgres_18"
   bundle_id = "micro_2_0"
   preferred_backup_window = "17:00-18:00"
   preferred_maintenance_window = "fri:18:30-fri:19:30"
